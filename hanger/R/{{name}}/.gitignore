@@ -1,0 +1,3 @@
+{{> gitignore/Global/macOS.gitignore}}
+{{> gitignore/Global/Windows.gitignore}}
+{{> gitignore/R.gitignore}}

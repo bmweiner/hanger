@@ -1,0 +1,9 @@
+Package: {{name}}
+Title: {{description}}
+Version: {{version}}
+Authors@R: person("{{first}}", "{{last}}", email = "{{email}}", role = c("aut", "cre"))
+Description: <long description>.
+Depends: R (>= 3.3.2)
+License: {{license}}
+Encoding: UTF-8
+LazyData: true
