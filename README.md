@@ -1,1 +1,1 @@
-Build with [jetpack](https://github.com/bmweiner/hanger)
+Build with [jetpack](https://github.com/bmweiner/jetpack)
