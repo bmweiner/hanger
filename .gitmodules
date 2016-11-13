@@ -1,0 +1,3 @@
+[submodule "hanger/gitignore"]
+	path = hanger/gitignore
+	url = https://github.com/github/gitignore
