@@ -1,6 +1,9 @@
 {
     "author": "Benjamin Weiner",
-    "github": "https://github.com/bmweiner",
+    "first": "Benjamin",
+    "last": "Weiner",
     "email": "bmweiner@users.noreply.github.com",
-    "version": "0.1"
+    "github": "https://github.com/bmweiner",
+    "version": "0.1",
+    "license": "MIT"
 }
