@@ -21,6 +21,7 @@ setup(name='{{name}}',
       url='{{github}}/{{name}}',
       description=description,
       long_description=long_description,
+      license='{{license}}',
       classifiers = [
           'Topic :: Software Development :: Libraries :: Python Modules',
           ],
