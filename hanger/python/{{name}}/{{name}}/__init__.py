@@ -1,3 +1,1 @@
-"""{{description}}"""
-
-__version__ = '{{version}}'
+"""{{name}}"""

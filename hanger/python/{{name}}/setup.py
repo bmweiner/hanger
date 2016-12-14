@@ -1,8 +1,7 @@
 import sys
 from setuptools import setup
 
-from {{name}} import __version__
-from {{name}} import __doc__ as description
+exec(open('{{name}}/version.py').read())
 
 needs_pytest = {'pytest', 'test', 'ptr'}.intersection(sys.argv)
 pytest_runner = ['pytest-runner'] if needs_pytest else []
@@ -19,7 +18,7 @@ setup(name='{{name}}',
       author='{{author}}',
       author_email='{{email}}',
       url='{{github}}/{{name}}',
-      description=description,
+      description=__description__,
       long_description=long_description,
       license='{{license}}',
       classifiers = [
