@@ -1,7 +1,8 @@
 import sys
 from setuptools import setup
 
-exec(open('{{name}}/version.py').read())
+__version__ = '{{version}}'
+__description__ = '{{description}}'
 
 needs_pytest = {'pytest', 'test', 'ptr'}.intersection(sys.argv)
 pytest_runner = ['pytest-runner'] if needs_pytest else []
