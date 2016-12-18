@@ -1,3 +1,0 @@
-Extract - Transform - Load
-
-Framework
