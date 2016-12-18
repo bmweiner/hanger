@@ -1,3 +1,6 @@
+# pack dynamic content
+hanger/etl/etl/README.md
+
 *.DS_Store
 .AppleDouble
 .LSOverride
@@ -44,4 +47,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
