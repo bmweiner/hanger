@@ -1,8 +1,12 @@
 # Extract - Transform - Load
 
+The etl pack is a directory layout to support my ETL processing framework for
+small scale data science projects (local machine).
+
 ## etl.py
 
-The etl pack contains a python script: `make.py` which will create the directory
-structure and a `README.md` describing each folder.
+Since git does not track empty directories, a `make.py` script is included to
+initialize the etl pack. This must be run before generating templates with
+jetpack.
 
     python make.py
