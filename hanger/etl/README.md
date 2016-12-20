@@ -41,17 +41,17 @@ system. For example, with systems {x,y} and staff {a,b,c}:
 
 Table 1: divided by system
 
-  |   | E | T | L |
-  |---|---|---|---|
-  | x | a | a | a |
-  | y | b | b | b |
+| | E | T | L |
+|---|---|---|---|
+| x | a | a | a |
+| y | b | b | b |
 
 Table 2: divided by task
 
-  |   | E | T | L |
-  |---|---|---|---|
-  | x | a | b | c |
-  | y | a | b | c |
+| | E | T | L |
+|---|---|---|---|
+| x | a | b | c |
+| y | a | b | c |
 
 #### Data
 
@@ -65,10 +65,10 @@ Table 2: divided by task
 
 #### Extract
 
-| Script Repository | `etl\extract`             |
-|---------------------------------------------- |
-| Data Source       | external or `etl\local` |
-| Data Destination  | `etl\stage\src`           |
+| Script Repository | `etl\extract` |
+|:---|:---|
+| Data Source | external or `etl\local`|
+| Data Destination | `etl\stage\src`|
 
   * An extract script transfers source files from an external source or the
     `etl\local` directory to the `etl\stage\src` directory on the local machine
@@ -83,9 +83,9 @@ Table 2: divided by task
 ##### Transform - Prep
 
 | Script Repository | `etl\transform\prep` |
-|----------------------------------------- |
-| Data Source       | `etl\stage\src`      |
-| Data Destination  | `etl\stage\tmp`      |
+|:---|:---|
+| Data Source | `etl\stage\src` |
+| Data Destination | `etl\stage\tmp` |
 
   * A prep script performs common pre-build steps on a source file such as
     format conversion and column name standardization
@@ -95,10 +95,10 @@ Table 2: divided by task
 
 ##### Transform - Build
 
-| Script Repository | `etl\transform\build`              |
-|------------------------------------------------------- |
-| Data Source       | `etl\stage\src` or `etl\stage\tmp` |
-| Data Destination  | `etl\stage\tbl`                    |
+| Script Repository | `etl\transform\build` |
+|:---|:---|
+| Data Source | `etl\stage\src` or `etl\stage\tmp` |
+| Data Destination | `etl\stage\tbl` |
 
   * A build script creates the final table and contains steps such as joins,
     reshaping, conversion, and casting
@@ -107,10 +107,10 @@ Table 2: divided by task
 
 #### Load
 
-| Script Repository | `etl\load`        |
-|---------------------------------------|
-| Data Source       | `etl\stage\tbl`   |
-| Data Destination  | data repository |
+| Script Repository | `etl\load` |
+|:---|:---|
+| Data Source | `etl\stage\tbl` |
+| Data Destination | data repository |
 
   * A load script transfers final tables from `etl\stage\tbl` to the project
     data repository, likely at a location accessible to the team
