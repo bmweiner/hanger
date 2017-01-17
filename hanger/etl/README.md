@@ -36,7 +36,7 @@ that require dynamic or near real-time data should use different methods.
 
 This workflow is listed in sequence of task execution [extract, transform-prep,
 transform-build, load]. Dependencies should exist from task to task, but not
-within a task. For mutli-person teams, work can be divided by task and/or
+within a task. For multi-person teams, work can be divided by task and/or
 system. For example, with systems {x,y} and staff {a,b,c}:
 
 Table 1: divided by system
